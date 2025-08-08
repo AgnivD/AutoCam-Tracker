@@ -17,7 +17,7 @@ body:
   - type: textarea
     id: proposal
     attributes:
-      label: Proposed solution / workflow
+      label: Proposed solution/workflow
       placeholder: "Describe how you'd like it to work."
   - type: dropdown
     id: tier
@@ -25,10 +25,10 @@ body:
       label: Fits which tier?
       options:
         - Core (free)
-        - Pro
+        - Pro (paid)
         - Not sure
   - type: textarea
     id: refs
     attributes:
-      label: References / inspiration
+      label: References/Inspiration
       placeholder: "Links to videos, screenshots, add-ons…"
