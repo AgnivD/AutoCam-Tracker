@@ -13,7 +13,8 @@ body:
     attributes:
       label: Blender Version
       options:
-        - 4.4 (LTS)
+        - 4.5
+        - 4.4
         - 4.3
         - 4.2
         - Other (please specify below)
@@ -29,8 +30,8 @@ body:
   - type: textarea
     id: system
     attributes:
-      label: Operating System / GPU
-      placeholder: "Windows 11, RTX 3060 • macOS 14, M1 Pro …"
+      label: Operating System/PC Specifications
+      placeholder: "Windows 11, Ryzen 7 3700x, RTX 3060 • macOS 14, M1 Pro..."
   - type: textarea
     id: steps
     attributes:
@@ -39,7 +40,7 @@ body:
         1. Open Blender
         2. Start a fly-through recording
         3. Press Generate Curve
-        4. Crash occurs …
+        4. Crash occurs...
     validations:
       required: true
   - type: textarea
@@ -49,9 +50,9 @@ body:
   - type: textarea
     id: actual
     attributes:
-      label: Actual Behavior / Error Message
+      label: Actual Behavior/Error Message
   - type: textarea
     id: files
     attributes:
-      label: .blend or video link (optional but 💯 helpful)
-      placeholder: "Attach via WeTransfer, Google Drive, GitHub upload…"
+      label: .blend or video link (optional but very helpful)
+      placeholder: "Attach via WeTransfer, Google Drive, GitHub upload..."
