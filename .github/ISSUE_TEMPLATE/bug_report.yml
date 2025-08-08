@@ -1,0 +1,57 @@
+name: "🐞 Bug Report"
+description: Create a report to help us improve AutoCam.
+title: "[Bug] "
+labels: ["bug", "triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Thanks for taking the time to fill out this bug report!**
+  - type: dropdown
+    id: blender_version
+    attributes:
+      label: Blender Version
+      options:
+        - 4.4 (LTS)
+        - 4.3
+        - 4.2
+        - Other (please specify below)
+    validations:
+      required: true
+  - type: input
+    id: autocam_version
+    attributes:
+      label: AutoCam Version
+      placeholder: "e.g. v1.1.2"
+    validations:
+      required: true
+  - type: textarea
+    id: system
+    attributes:
+      label: Operating System / GPU
+      placeholder: "Windows 11, RTX 3060 • macOS 14, M1 Pro …"
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      placeholder: |
+        1. Open Blender
+        2. Start a fly-through recording
+        3. Press Generate Curve
+        4. Crash occurs …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior / Error Message
+  - type: textarea
+    id: files
+    attributes:
+      label: .blend or video link (optional but 💯 helpful)
+      placeholder: "Attach via WeTransfer, Google Drive, GitHub upload…"
