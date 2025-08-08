@@ -1,0 +1,33 @@
+name: "✨ Feature Request"
+description: Suggest an idea to make AutoCam even better.
+title: "[Feature] "
+labels: ["enhancement", "idea"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Got a cool idea? Share it below!**  
+        Please check the [issue search](../../issues) first to avoid duplicates.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to Solve
+      placeholder: "What problem does this feature fix for you?"
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed Solution / Workflow
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Fits which tier?
+      options:
+        - Core (free)
+        - Pro
+        - Not sure
+  - type: textarea
+    id: refs
+    attributes:
+      label: References / Inspiration
+      placeholder: "Links to videos, screenshots, add-ons, papers …"
