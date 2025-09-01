@@ -1,16 +1,28 @@
 # Table of contents
 
-* [Welcome](README.md)
+## Welcome
 
-## Getting Started
+* [Overview](README.md)
+* [Installation](welcome/installation.md)
+* [Quick Start](welcome/quick-start.md)
 
-* [Quickstart](getting-started/quickstart.md)
-* [Publish your docs](getting-started/publish-your-docs.md)
+## Learn
 
-## Basics
+* [Features](learn/features/README.md)
+  * [UI Overview](learn/features/ui-overview.md)
+  * [Record](learn/features/record.md)
+  * [Path](learn/features/path.md)
+  * [Rig](learn/features/rig.md)
+  * [Bake](learn/features/bake.md)
+* [Guides](learn/guides.md)
 
-* [Editor](basics/editor.md)
-* [Markdown](basics/markdown.md)
-* [Images & media](basics/images-and-media.md)
-* [Interactive blocks](basics/interactive-blocks.md)
-* [Integrations](basics/integrations.md)
+## Help
+
+* [Troubleshooting](help/troubleshooting.md)
+* [FAQ](help/faq.md)
+* [Support](help/support.md)
+
+## Updates
+
+* [Changelog](updates/changelog.md)
+* [Roadmap](updates/roadmap.md)
