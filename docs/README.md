@@ -30,10 +30,6 @@ Record natural movements, generate clean, editable paths, and drive robust rigs,
 
 AutoCam lets you move your camera like a video game flythrough, then transforms that motion into an editable path and a flexible rig. You can pick different spline types for the path, switch rig modes, keyframe speed (forward, pause, reverse), and refine your aim with simple tracking controls. When you’re ready, bake everything to plain keyframes for easy tweaking, final renders, or export.
 
-{% hint style="success" %}
-Most features are **Free**. Pro-only items in the docs are marked with a **PRO** badge.
-{% endhint %}
-
 ***
 
 ### What’s in this documentation
