@@ -20,7 +20,7 @@ This page is a fast overview to get you moving. Please read [**Features**](../le
 4. Press **Esc** (twice) to stop.
 
 {% hint style="success" %}
-**Tip:** Capture a natural camera move; don’t worry about perfection yet.
+Learn more about [**Recording**](../learn/features/record.md).
 {% endhint %}
 
 ***
@@ -32,7 +32,7 @@ This page is a fast overview to get you moving. Please read [**Features**](../le
 3. Tweak points in **Edit Mode** if needed and click **Apply** (while still being in Edit mode).
 
 {% hint style="success" %}
-**Tip:** Ensure the camera's path is extracted accurately. Edits can always be made later.
+Learn more about [**Path Extraction**](../learn/features/path.md).
 {% endhint %}
 
 ***
@@ -43,7 +43,7 @@ This page is a fast overview to get you moving. Please read [**Features**](../le
 2. Keyframe **Speed** to dynamically adjust camera speed and control timing.
 
 {% hint style="success" %}
-**Tip:** You can create **multiple rigs** in one scene, each with its own curve, camera, and other settings.
+Learn more about [**Rig Generation**](../learn/features/rig.md).
 {% endhint %}
 
 ***
@@ -59,7 +59,7 @@ This page is a fast overview to get you moving. Please read [**Features**](../le
 
 **Tracking settings:**
 
-* **Manual Aim:** Camera follows the **LookAt** object.\
+* **Manual Aim:** Camera tracks the **LookAt** object.\
   <mark style="color:$info;">(Best for single, static subjects, or full control)</mark>
 * **Match Recording:** Camera inherits rotation data from the original recording.\
   <mark style="color:$info;">(Best for quick setups with less manual work)</mark>
@@ -77,7 +77,7 @@ Clicking **Sync Speed to Keys** will then update the Speed value to match that f
 Click **Bake** to convert AutoCam motion to **plain keyframes**. Perfect for exporting to other DCCs or rendering on a PC without AutoCam installed.
 
 {% hint style="success" %}
-**Tip:** Make sure to bake your AutoCam rig when you use a render farm. It is also recommended to bake before your final render when you use the **Dynamic** rig mode.
+Learn more about [**Baking**](../learn/features/bake.md).
 {% endhint %}
 
 ***

@@ -18,7 +18,7 @@ layout:
 
 # Overview
 
-### AutoCam - Intuitive Camera Tools for Blender
+## AutoCam - Intuitive Camera Tools for Blender
 
 Built for artists, AutoCam simplifies cinematic camera animation in Blender.
 
@@ -26,24 +26,26 @@ Record natural movements, generate clean, editable paths, and drive robust rigs,
 
 ***
 
-### What is AutoCam?
+## What is AutoCam?
+
+<figure><img src=".gitbook/assets/AutoCamHero.gif" alt=""><figcaption></figcaption></figure>
 
 AutoCam lets you move your camera like a video game flythrough, then transforms that motion into an editable path and a flexible rig. You can pick different spline types for the path, switch rig modes, keyframe speed (forward, pause, reverse), and refine your aim with simple tracking controls. When you’re ready, bake everything to plain keyframes for easy tweaking, final renders, or export.
 
 ***
 
-### What’s in this documentation
+## What’s in this documentation
 
-* **Installation** — how to add AutoCam to Blender
-* **Quick Start** — the 60-second workflow from record → rig → bake.
-* **Features** — dedicated pages for each AutoCam feature with usage instructions.
-* **Guides** — common workflows, tips, examples, video tutorials, and more.
-* **Help** — troubleshooting, FAQ, and how to contact Support.
-* **Updates** — release Notes (Changelog) and the public roadmap.
+* [**Installation**](welcome/installation.md) — How to add AutoCam to Blender
+* [**Quick Start**](welcome/quick-start.md) — The 60-second workflow from record → rig → bake.
+* [**Features**](learn/features/) — Dedicated pages for each AutoCam feature with usage instructions.
+* [**Guides**](learn/guides.md) — Common workflows, tips, examples, video tutorials, and more.
+* [**Help**](broken-reference) — [Troubleshooting](help/troubleshooting.md), [FAQ](help/faq.md), and how to contact [Support](help/support.md).
+* [**Updates**](broken-reference) — Release Notes ([Changelog](updates/changelog.md)) and the Public [Roadmap](updates/roadmap.md).
 
 ***
 
-### How to navigate (pick your goal)
+## How to navigate (pick your goal)
 
 1. **New to AutoCam?** Follow the [**Quick Start**](welcome/quick-start.md).
 2. **Want deeper control?** Read [**Features** ](learn/features/)and [**Guides**](learn/guides.md)**.**
@@ -52,25 +54,25 @@ AutoCam lets you move your camera like a video game flythrough, then transforms 
 
 ***
 
-### Quick links
+## Quick links
 
-**Core:**
+### **Core:**
 
-* **Website** → [renderrides.com](https://www.renderrides.com)
-* **GitHub** → [AutoCam-Tracker](https://github.com/AgnivD/AutoCam-Tracker)
-* **Blender Extensions Platform** → [RenderRides](https://extensions.blender.org/author/40749/)
+* <i class="fa-globe">:globe:</i>  [**RenderRides Website**](https://www.renderrides.com)
+* <i class="fa-github">:github:</i>  [**AutoCam-Tracker Github**](https://github.com/AgnivD/AutoCam-Tracker)
+* <i class="fa-puzzle-piece">:puzzle-piece:</i>  [**Blender Extensions Platform**](https://extensions.blender.org/author/40749/)
 
-**Social:**
+### **Social:**
 
-* **YouTube** → [@RenderRides](https://www.youtube.com/@RenderRides)
-* **Discord Community** → [The Renderverse](https://discord.gg/XHAAbvm)
-* **Instagram** → [@renderrides](https://www.instagram.com/renderrides)
-* **Twitter/X** → [@RenderRides](https://twitter.com/RenderRides)
+* <i class="fa-youtube">:youtube:</i>  [**YouTube**](https://www.youtube.com/@RenderRides)
+* <i class="fa-discord">:discord:</i>  [**Discord**](https://discord.gg/XHAAbvm)
+* <i class="fa-instagram">:instagram:</i>  [**Instagram**](https://www.instagram.com/renderrides)
+* <i class="fa-x-twitter">:x-twitter:</i>  [**Twitter/X**](https://twitter.com/RenderRides)
 
-**Stores:**
+### **Stores:**
 
-* **Gumroad** → [/renderrides](https://gumroad.com/renderrides)
-* **Superhive** → [/renderrides](https://blendermarket.com/creators/renderrides)
-* **Patreon** → [/renderrides](https://patreon.com/renderrides)
+* <i class="fa-store">:store:</i>  [**Gumroad**](https://gumroad.com/renderrides)
+* <i class="fa-bee">:bee:</i>  [**Superhive**](https://blendermarket.com/creators/renderrides)
+* <i class="fa-patreon">:patreon:</i>  [**Patreon**](https://patreon.com/renderrides)
 
 &#x20;
