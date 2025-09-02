@@ -1,14 +1,24 @@
-# AutoCam: Community Issue Tracker
+# AutoCam — Community Issue Tracker
 
-Welcome!  
+Welcome!
 
-This repository exists **only** to collect bug reports, usability problems, and feature suggestions for the [AutoCam](https://renderrides.gumroad.com/l/autocam) Blender add-on.
+This repository exists **only** to collect bug reports, usability problems, and feature suggestions for the [**AutoCam**](https://renderrides.gumroad.com/l/autocam) Blender add-on / Extension.
 
 - **No source code lives here.**  
-  If you’d like to browse or contribute to the code, you’ll need to wait until the core repository is open-sourced.
+  The core repo isn’t public; this space is strictly for tracking issues and ideas.
 - **No pull requests.**  
-  We keep development in a private repo to avoid licensing overlap with AutoCam Pro. Please open an Issue or Discussion instead.
+  Development happens in a private repo to avoid licensing overlap with [**AutoCam Pro**](https://www.renderrides.com/autocam-pro). Please open an [**Issue**](https://github.com/AgnivD/AutoCam-Tracker/issues/new/choose) instead.
 
-Need help fast?  
-- Join our Discord Community - [RenderRides Discord](https://discord.com/invite/XHAAbvm)
-- Reach out at [support@renderrides.com](mailto:support@renderrides.com) or visit [renderrides.com](http://renderrides.com/) for documentation (to be added)
+---
+
+## Before You Open an Issue
+
+1. **Check the docs:** <https://renderrides.gitbook.io/autocam>  
+2. **Update first:** Make sure you’re on the latest AutoCam (e.g., **2.0.0**) and a supported, stable release of Blender.
+3. **Eliminate conflicts:** Temporarily disable other camera/rig/recording add-ons to rule out collisions.
+
+---
+
+## Roadmap & Status
+
+- [**Public roadmap**](https://github.com/users/AgnivD/projects/3/)
