@@ -16,7 +16,7 @@ We’ll add new guides regularly; community submissions are credited.
 
 Explore our video walkthroughs and tutorials. Stay tuned for more updates!
 
-### AutoCam 1.0 Release Walkthrough
+### /AutoCam 1.0 Release Walkthrough
 
 The introductory video for AutoCam's first release.
 
@@ -31,6 +31,14 @@ The introductory video for AutoCam's first release.
 ### AutoCam 2.0 Release Walkthrough
 
 _Coming soon..._
+
+&#x20;&#x20;
+
+### AutoCam Pro Release Walkthrough
+
+_Coming soon..._
+
+<a href="https://www.renderrides.com/autocam-pro" class="button primary" data-icon="aperture">Join the AutoCam Pro Waitlist</a>
 
 &#x20;&#x20;
 

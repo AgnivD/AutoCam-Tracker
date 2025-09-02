@@ -14,4 +14,6 @@ This page is intentionally minimal. For the live roadmap, view the public GitHub
 
 Identify upcoming **AutoCam Pro** features by looking for items with the **\[PRO]** prefix in the roadmap.
 
+<a href="https://www.renderrides.com/autocam-pro" class="button primary" data-icon="aperture">Join the AutoCam Pro Waitlist</a>
+
 &#x20;&#x20;
