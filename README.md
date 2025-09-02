@@ -1,4 +1,4 @@
-# AutoCam — Community Issue Tracker
+# AutoCam: Community Issue Tracker
 
 Welcome!
 
