@@ -15,7 +15,7 @@ This project uses **semantic versioning** - **MAJOR.MINOR.PATCH** <mark style="c
 
 ***
 
-## 2.0.0 \[Latest Release] <mark style="color:$info;">— 2025-09-01</mark>
+## 2.0.0 \[Latest Release] <mark style="color:$info;">— 2025-09-02</mark>
 
 ### Added
 
