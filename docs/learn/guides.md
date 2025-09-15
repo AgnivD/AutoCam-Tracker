@@ -16,7 +16,7 @@ We’ll add new guides regularly; community submissions are credited.
 
 Explore our video walkthroughs and tutorials. Stay tuned for more updates!
 
-### /AutoCam 1.0 Release Walkthrough
+### AutoCam 1.0 Release Walkthrough
 
 The introductory video for AutoCam's first release.
 
@@ -30,7 +30,11 @@ The introductory video for AutoCam's first release.
 
 ### AutoCam 2.0 Release Walkthrough
 
-_Coming soon..._
+The updated introductory video for AutoCam’s 2.0 release.
+
+{% embed url="https://youtu.be/EA91cJ3nLRo" %}
+
+* Covers all the fundamental features of AutoCam and everything that's new with AutoCam 2.0.
 
 &#x20;&#x20;
 

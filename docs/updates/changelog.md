@@ -15,7 +15,27 @@ This project uses **semantic versioning** - **MAJOR.MINOR.PATCH** <mark style="c
 
 ***
 
-## 2.0.0 \[Latest Release] <mark style="color:$info;">— 2025-09-02</mark>
+## 2.0.2 \[Latest Release] <mark style="color:$info;">— 2025-09-16</mark>
+
+### **Fixed**
+
+* Dynamic rigs no longer freeze after reopening a .blend. The rig builder now stamps a persistent ID on new rigs so Dynamic mode resumes correctly on load.
+
+**Note**
+
+* If you built a rig in 2.0.1 or earlier and it still freezes after reopening, rebuild once with **Generate Rig** to stamp the ID. After that, reloads will be stable.
+
+***
+
+## 2.0.1 <mark style="color:$info;">— 2025-09-04</mark>
+
+### **Fixed**
+
+* Aim preset “Recorded Rotations” renamed to **Match Recording**.
+* Rig builder now seeds arc table, sets start frame, and refreshes the view layer.
+* **Match Recording** starts at frame 1, refreshes the view layer, and runs a safe try/except.
+
+## 2.0.0 <mark style="color:$info;">— 2025-09-02</mark>
 
 ### Added
 
