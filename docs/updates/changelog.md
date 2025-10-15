@@ -15,6 +15,39 @@ This project uses **semantic versioning** - **MAJOR.MINOR.PATCH** <mark style="c
 
 ***
 
+## 2.0.4 \[Latest Release] <mark style="color:$info;">— 2025-10-15</mark>
+
+### Changed
+
+* Dynamic rigs now read speed as distance-per-second, so timing stays consistent  \
+  when the curve is extended/retracted.
+* Simple and Dynamic rigs now keep independent speed values, so keying one mode  \
+  no longer indicates the other's Speed slider as animated.
+
+### Fixed
+
+* Simple mode path follow preserves its keyframes when you rebuild or toggle  \
+  modes; animation data is serialized and restored automatically.
+* Dynamic mode now supports auto-keying, allowing users to quickly prototype  \
+  camera animations in real-time.
+
+***
+
+## 2.0.3 <mark style="color:$info;">— 2025-09-25</mark>
+
+### Changed
+
+* Standardized every operator, panel, and helper prefix to `AUTOCAM_`, updating  \
+  bpy.ops identifiers and helper utilities to the `autocam` namespace for clearer  \
+  branding.
+
+### Fixed
+
+* Fly Record no longer traps the cursor when canceling; removing the `GRAB_CURSOR`  \
+  flag lets the pointer return immediately after dismissing confirmation.
+
+***
+
 ## 2.0.2 \[Latest Release] <mark style="color:$info;">— 2025-09-16</mark>
 
 ### **Fixed**
