@@ -16,6 +16,14 @@ We’ll add new guides regularly; community submissions are credited.
 
 Explore our video walkthroughs and tutorials. Stay tuned for more updates!
 
+### AutoCam Academy (Playlist)
+
+All video guides in one place. New lessons added regularly.
+
+{% embed url="https://www.youtube.com/playlist?list=PLPANgs78y7xCBYIo9H9xLe6qIzg4YiwHL" %}
+
+&#x20;&#x20;
+
 ### AutoCam 1.0 Release Walkthrough
 
 The introductory video for AutoCam's first release.
