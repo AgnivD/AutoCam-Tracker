@@ -17,7 +17,7 @@ This page is a fast overview to get you moving. Please read [**Features**](../le
 1. In the 3D View, press **N** → open the **AutoCam** tab.
 2. Click **Start Recording**.
 3. Fly like a game: **W/A/S/D** (move), **Q/E** (down/up), **Mouse** (look).
-4. Press **Esc** (twice) to stop.
+4. Press **Esc** or **Left/Right Mouse Click** to stop.
 
 {% hint style="success" %}
 Learn more about [**Recording**](../learn/features/record.md).

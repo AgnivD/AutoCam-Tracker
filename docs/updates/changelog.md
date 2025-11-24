@@ -15,21 +15,34 @@ This project uses **semantic versioning** - **MAJOR.MINOR.PATCH** <mark style="c
 
 ***
 
-## 2.0.4 \[Latest Release] <mark style="color:$info;">— 2025-10-15</mark>
+## 2.0.5 \[Latest Release] <mark style="color:$info;">— 2025-11-24</mark>
 
-### Changed
+### Compatibility
 
-* Dynamic rigs now read speed as distance-per-second, so timing stays consistent  \
-  when the curve is extended/retracted.
-* Simple and Dynamic rigs now keep independent speed values, so keying one mode  \
-  no longer indicates the other's Speed slider as animated.
+* Now supports **Blender 5.0** while maintaining backwards compatibility back to  &#x20;**Blender 4.2**.
 
 ### Fixed
 
-* Simple mode path follow preserves its keyframes when you rebuild or toggle  \
-  modes; animation data is serialized and restored automatically.
-* Dynamic mode now supports auto-keying, allowing users to quickly prototype  \
-  camera animations in real-time.
+* **Recording Cursor:** The mouse cursor no longer gets stuck or hits a boundary  &#x20;while recording.
+* **Recording Exit:** You can now cleanly finish recording by pressing Escape,  &#x20;Left Click, or Right Click.
+
+### Improved
+
+* **Match Recording:** Settings are now more responsive and intuitive to use.
+
+***
+
+## 2.0.4 <mark style="color:$info;">— 2025-10-15</mark>
+
+### Changed
+
+* Dynamic rigs now read speed as distance-per-second, so timing stays consistent  &#x20;when the curve is extended/retracted.
+* Simple and Dynamic rigs now keep independent speed values, so keying one mode  &#x20;no longer indicates the other's Speed slider as animated.
+
+### Fixed
+
+* Simple mode path follow preserves its keyframes when you rebuild or toggle  &#x20;modes; animation data is serialized and restored automatically.
+* Dynamic mode now supports auto-keying, allowing users to quickly prototype  &#x20;camera animations in real-time.
 
 ***
 
@@ -37,14 +50,11 @@ This project uses **semantic versioning** - **MAJOR.MINOR.PATCH** <mark style="c
 
 ### Changed
 
-* Standardized every operator, panel, and helper prefix to `AUTOCAM_`, updating  \
-  bpy.ops identifiers and helper utilities to the `autocam` namespace for clearer  \
-  branding.
+* Standardized every operator, panel, and helper prefix to `AUTOCAM_`, updating  &#x20;bpy.ops identifiers and helper utilities to the `autocam` namespace for clearer  &#x20;branding.
 
 ### Fixed
 
-* Fly Record no longer traps the cursor when canceling; removing the `GRAB_CURSOR`  \
-  flag lets the pointer return immediately after dismissing confirmation.
+* Fly Record no longer traps the cursor when canceling; removing the `GRAB_CURSOR`  &#x20;flag lets the pointer return immediately after dismissing confirmation.
 
 ***
 

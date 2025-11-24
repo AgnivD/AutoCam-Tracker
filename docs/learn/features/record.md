@@ -43,7 +43,7 @@ Click **Start Recording**.
 {% endstep %}
 
 {% step %}
-Press **Esc** (twice) to stop.
+Press **Esc** or **Left/Right Mouse Click** to stop.
 
 <figure><img src="../../.gitbook/assets/AutoCamRecord3.gif" alt=""><figcaption></figcaption></figure>
 {% endstep %}
