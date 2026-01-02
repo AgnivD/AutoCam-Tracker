@@ -15,7 +15,20 @@ This project uses **semantic versioning** - **MAJOR.MINOR.PATCH** <mark style="c
 
 ***
 
-## 2.0.5 \[Latest Release] <mark style="color:$info;">— 2025-11-24</mark>
+## 2.0.6 \[Latest Release] <mark style="color:$info;">— 2026-01-03</mark>
+
+### Fixed
+
+* **Path Extraction:** Camera animation detection now works reliably with Blender  &#x20;5.x layered actions and NLA-based animation.
+
+### Improved
+
+* **UI Cleanup:** Removed placeholder Pro feature items for a cleaner, more  &#x20;focused Free experience.
+* **Bake Settings:** Made the popup more compact without losing functionality.
+
+***
+
+## 2.0.5 <mark style="color:$info;">— 2025-11-24</mark>
 
 ### Compatibility
 
@@ -77,6 +90,8 @@ This project uses **semantic versioning** - **MAJOR.MINOR.PATCH** <mark style="c
 * Aim preset “Recorded Rotations” renamed to **Match Recording**.
 * Rig builder now seeds arc table, sets start frame, and refreshes the view layer.
 * **Match Recording** starts at frame 1, refreshes the view layer, and runs a safe try/except.
+
+***
 
 ## 2.0.0 <mark style="color:$info;">— 2025-09-02</mark>
 
