@@ -20,7 +20,7 @@ This page is a fast overview to get you moving. Please read [**Features**](../le
 4. Press **Esc** or **Left/Right Mouse Click** to stop.
 
 {% hint style="success" %}
-Learn more about [**Recording**](../learn/features/record.md).
+Learn more about [**Recording**](../learn/features/source.md).
 {% endhint %}
 
 ***
@@ -77,7 +77,7 @@ Clicking **Sync Speed to Keys** will then update the Speed value to match that f
 Click **Bake** to convert AutoCam motion to **plain keyframes**. Perfect for exporting to other DCCs or rendering on a PC without AutoCam installed.
 
 {% hint style="success" %}
-Learn more about [**Baking**](../learn/features/bake.md).
+Learn more about [**Baking**](../learn/features/output.md).
 {% endhint %}
 
 ***

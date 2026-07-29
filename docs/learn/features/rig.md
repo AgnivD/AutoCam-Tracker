@@ -95,7 +95,7 @@ Keyframe **Speed** to shape timing.
 * **Negative values** = Reverse
 
 {% hint style="danger" %}
-**Note:** Because Dynamic is live-evaluated, [**Bake**](bake.md) before final render/export to lock the result.
+**Note:** Because Dynamic is live-evaluated, [**Bake**](output.md) before final render/export to lock the result.
 {% endhint %}
 
 </details>
@@ -162,7 +162,7 @@ Learn more about [**Panel States**](ui-overview.md#panel-states) to understand h
 
 ## Next steps
 
-* Lock in the result for rendering/export → [**Bake**](bake.md)
+* Lock in the result for rendering/export → [**Bake**](output.md)
 * See common workflows → [**Guides**](../guides.md)
 * Or jump back to [**Quick Start**](../../welcome/quick-start.md) to see the whole workflow.
 

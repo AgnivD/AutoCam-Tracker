@@ -14,6 +14,10 @@ layout:
     visible: true
   metadata:
     visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Overview
@@ -40,8 +44,8 @@ AutoCam lets you move your camera like a video game flythrough, then transforms 
 * [**Quick Start**](welcome/quick-start.md) — The 60-second workflow from record → rig → bake.
 * [**Features**](learn/features/) — Dedicated pages for each AutoCam feature with usage instructions.
 * [**Guides**](learn/guides.md) — Common workflows, tips, examples, video tutorials, and more.
-* [**Help**](broken-reference) — [Troubleshooting](help/troubleshooting.md), [FAQ](help/faq.md), and how to contact [Support](help/support.md).
-* [**Updates**](broken-reference) — Release Notes ([Changelog](updates/changelog.md)) and the Public [Roadmap](updates/roadmap.md).
+* [**Help**](https://app.gitbook.com/s/3q2ypBtoL6AgTvJ75ezM/help) — [Troubleshooting](help/troubleshooting.md), [FAQ](help/faq.md), and how to contact [Support](help/support.md).
+* [**Updates**](https://app.gitbook.com/s/3q2ypBtoL6AgTvJ75ezM/updates) — Release Notes ([Changelog](updates/changelog.md)) and the Public [Roadmap](updates/roadmap.md).
 
 ***
 

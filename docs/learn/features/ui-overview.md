@@ -94,7 +94,7 @@ The **Record** panel is always displayed, except when the selected object is gen
 In such cases, the panel is hidden to keep the UI uncluttered.
 
 {% hint style="info" %}
-[Learn more](record.md) about **Camera POV Recording**.
+[Learn more](source.md) about **Camera POV Recording**.
 {% endhint %}
 {% endcolumn %}
 
@@ -208,7 +208,7 @@ The **Bake** panel appears when the selected object is an AutoCam object.
 Selecting the new 'baked' camera hides the panel to prevent accidental re-baking.
 
 {% hint style="info" %}
-[Learn more](bake.md) about **Baking**.
+[Learn more](output.md) about **Baking**.
 {% endhint %}
 {% endcolumn %}
 
@@ -242,7 +242,7 @@ Preferences affect **new** rigs/paths you create; they don’t retroactively cha
 
 ## Next steps
 
-* **Learn each feature in depth** → [**Record**](record.md) **-** [**Path**](path.md) **-** [**Rig**](rig.md) **-** [**Bake**](bake.md)
+* **Learn each feature in depth** → [**Record**](source.md) **-** [**Path**](path.md) **-** [**Rig**](rig.md) **-** [**Bake**](output.md)
 * **See practical examples** → [**Guides**](../guides.md)
 * **Having issues?** Start with [**Troubleshooting**](../../help/troubleshooting.md), check the [**FAQ**](../../help/faq.md), and contact [**Support**](../../help/support.md) if necessary.
 

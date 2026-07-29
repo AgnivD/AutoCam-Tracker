@@ -10,10 +10,10 @@
 
 * [Features](learn/features/README.md)
   * [UI Overview](learn/features/ui-overview.md)
-  * [Record](learn/features/record.md)
+  * [Source](learn/features/source.md)
   * [Path](learn/features/path.md)
   * [Rig](learn/features/rig.md)
-  * [Bake](learn/features/bake.md)
+  * [Output](learn/features/output.md)
 * [Guides](learn/guides.md)
 
 ## Help

@@ -9,7 +9,7 @@ Convert your recorded camera movements into an **editable curve**, serving as th
 <figure><img src="../../.gitbook/assets/AutoCamPath1.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-**Note:** Requires a camera with **location keyframes**, either [recorded](record.md) or manually animated.
+**Note:** Requires a camera with **location keyframes**, either [recorded](source.md) or manually animated.
 {% endhint %}
 
 ***
@@ -19,7 +19,7 @@ Convert your recorded camera movements into an **editable curve**, serving as th
 {% hint style="info" %}
 **Prerequisites:**
 
-* A camera **with location keyframes** exists (see [**Record**](record.md) if not).
+* A camera **with location keyframes** exists (see [**Record**](source.md) if not).
 * Ensure the camera is **selected**, regardless of whether it is active or inactive.
 {% endhint %}
 
@@ -92,7 +92,7 @@ Once you click **Apply** in Edit Mode, that version becomes your **new baseline*
 
 ## Common Issues <mark style="color:$info;">(and quick fixes)</mark>
 
-* _"Generate Curve is greyed out"_ - The selected camera has no **location** keyframes. [Record](record.md) or keyframe it manually.
+* _"Generate Curve is greyed out"_ - The selected camera has no **location** keyframes. [Record](source.md) or keyframe it manually.
 * _"My edits vanished after Apply"_ - You clicked **Apply** in Object Mode. Re-edit and **Apply in Edit Mode** to update the sample.
 
 {% hint style="info" %}

@@ -4,8 +4,7 @@ icon: gear
 
 # Installation
 
-AutoCam is compatible with **Blender 4.0+** across Windows, macOS, and Linux.\
-The **Extensions** install path is supported from Blender **4.2+** onwards.
+AutoCam is compatible with **Blender 4.2+** across Windows, macOS, and Linux.
 
 {% hint style="warning" %}
 Don’t unzip the download. You’ll install the `.zip` directly.
@@ -28,17 +27,7 @@ Don’t unzip the download. You’ll install the `.zip` directly.
 
 ***
 
-### Option B: Install as an Add-on <mark style="color:$info;">(Blender 4.0–4.1)</mark>
-
-1. **Download** the addon  `.zip`  file.
-2. In Blender:\
-   **Edit** → **Preferences** → **Add-ons** → **Install…**
-3. Select the ZIP → **Install Add-on** → enable **AutoCam**. You should be able to access user preferences.
-4. Save & close Preferences → in 3D View press **N** → open the **AutoCam** tab.
-
-***
-
-### Option C: Updating from an older version
+### Option B: Updating from an older version
 
 **Extensions:**&#x20;
 
@@ -46,13 +35,6 @@ Don’t unzip the download. You’ll install the `.zip` directly.
    **Edit** → **Preferences** → **Get Extensions** → **AutoCam** → **Uninstall.**
 2. Restart Blender (important).
 3. Follow the installation steps in [Option A](installation.md#option-a-install-as-an-extension-blender-4.2) to reinstall.
-
-**Add-ons:**
-
-1. **Edit** → **Preferences** → **Add-ons** → search “**AutoCam**”
-2. Expand the AutoCam panel and click on **Remove**.
-3. Restart Blender (important).
-4. Follow the installation steps in [Option B](installation.md#option-b-install-as-an-add-on-blender-4.0-4.1) to reinstall.
 
 {% hint style="success" %}
 **Tip:** If you installed AutoCam using the **Blender Extensions Platform** (_Search Extensions_), you can update it by navigating to **Get Extensions** → **AutoCam** → **Update** (requires internet access).

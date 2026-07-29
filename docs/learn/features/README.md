@@ -12,8 +12,8 @@ This section mirrors the AutoCam panels. Pick the area you’re working in and d
 [ui-overview.md](ui-overview.md)
 {% endcontent-ref %}
 
-{% content-ref url="record.md" %}
-[record.md](record.md)
+{% content-ref url="source.md" %}
+[source.md](source.md)
 {% endcontent-ref %}
 
 {% content-ref url="path.md" %}
@@ -24,8 +24,8 @@ This section mirrors the AutoCam panels. Pick the area you’re working in and d
 [rig.md](rig.md)
 {% endcontent-ref %}
 
-{% content-ref url="bake.md" %}
-[bake.md](bake.md)
+{% content-ref url="output.md" %}
+[output.md](output.md)
 {% endcontent-ref %}
 
 ***
@@ -33,7 +33,7 @@ This section mirrors the AutoCam panels. Pick the area you’re working in and d
 ### Next steps
 
 * **Get acquainted with the UI** → [**UI Overview**](ui-overview.md)
-* **Learn each feature in depth** → [**Record**](record.md) **-** [**Path**](path.md) **-** [**Rig**](rig.md) **-** [**Bake**](bake.md)
+* **Learn each feature in depth** → [**Record**](source.md) **-** [**Path**](path.md) **-** [**Rig**](rig.md) **-** [**Bake**](output.md)
 * **Having issues?** Start with [**Troubleshooting**](../../help/troubleshooting.md), check the [**FAQ**](../../help/faq.md), and contact [**Support**](../../help/support.md) if necessary.
 
 &#x20;

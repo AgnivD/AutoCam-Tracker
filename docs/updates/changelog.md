@@ -10,12 +10,69 @@ This project uses **semantic versioning** - **MAJOR.MINOR.PATCH** <mark style="c
 **Note:**
 
 * This documentation contains information on **v2.0.0** onwards.
-* For the recommended 2.0 workflow, see [**Record**](../learn/features/record.md) → [**Path**](../learn/features/path.md) → [**Rig**](../learn/features/rig.md) → [**Bake**](../learn/features/bake.md).
+* For the recommended 2.0 workflow, see [**Record**](../learn/features/source.md) → [**Path**](../learn/features/path.md) → [**Rig**](../learn/features/rig.md) → [**Bake**](../learn/features/output.md).
 {% endhint %}
 
 ***
 
-## 2.0.6 \[Latest Release] <mark style="color:$info;">— 2026-01-03</mark>
+## 2.1.0 \[Latest Release] <mark style="color:$info;">— 2026-07-29</mark>
+
+### Changed
+
+* **Dynamic rig mode has been REMOVED.** Simple keyframed motion is the single  \
+  motion model, and speed is authored by keyframing the new "Progress"  \
+  slider on the Rig panel (forward, hold, or reverse). The "Rig Mode"  \
+  switch and both Speed sliders are gone, along with their preferences.
+* **Rigs saved in 2.0.x are migrated automatically on file open.** Dynamic rigs  \
+  become an even-paced traversal of their original frame range; performed  \
+  pacing is not preserved (see "Upgrading from 2.0.x" above).
+* **The sidebar is now organised by stage - Source, Path, Rig, Output.** The  \
+  "Record" panel is now "Source" and "Bake" is now "Output"; the buttons  \
+  and the workflow are unchanged.
+
+### Compatibility
+
+* **Blender 5.x support, including 5.2 LTS.** Minimum is now Blender 4.2 (the  \
+  add-on install path previously advertised 4.0; the extension has always  \
+  required 4.2).
+
+### Added
+
+* **Customizable flythrough controls:** Look sensitivity, movement speed, a  \
+  fast multiplier, rebindable movement keys, a one-click AZERTY (ZQSD)  \
+  preset, and reset-to-defaults. Stored in Preferences.
+* **Rig visuals:** Rig controls are shaped and colour-coded by role (dolly,  \
+  aim, look-at, focus) and named in the viewport.
+* **"Show Path Direction":** An optional path overlay with direction-of-travel  \
+  chevrons, toggleable per rig.
+* **"Clear This Rig" in the Danger Zone:** Removes one rig and its baked  \
+  camera, restores the original camera, and leaves other rigs untouched.
+* **"Re-Bake":** Re-bake an already-baked camera with different settings  \
+  without rebuilding the rig.
+* "Show Hints" preference to hide the instructional text in the panels.
+
+### Fixed
+
+* **Blender 5.x:** Rendering an animation with an AutoCam rig in the scene could  \
+  crash Blender with an access violation (0xc0000005). AutoCam's realtime  \
+  per-frame handler ran inside Blender's render job and re-entered scene  \
+  evaluation mid-render. It is gone along with Dynamic mode, and any copy  \
+  left behind by an older AutoCam is swept on start-up and on every file  \
+  open. (Tracker issue #35.)
+* **Recording:** Cancelling a flythrough now restores your preferences fully  \
+  and removes the temporary timeline extension; repeated record/discard  \
+  cycles no longer leave stray handlers behind.
+* **Baked cameras now read clean in the viewport** - selecting one no longer  \
+  draws the rig's path overlay.
+* "Make Active" on a baked camera now makes THAT camera the scene camera  \
+  instead of the rig camera it was baked from.
+* The reported add-on version is now taken from the build itself, so the  \
+  Add-ons list and the extension metadata always agree (2.0.6 reported  \
+  itself as 2.0.5).
+
+***
+
+## 2.0.6 <mark style="color:$info;">— 2026-01-03</mark>
 
 ### Fixed
 
@@ -71,7 +128,7 @@ This project uses **semantic versioning** - **MAJOR.MINOR.PATCH** <mark style="c
 
 ***
 
-## 2.0.2 \[Latest Release] <mark style="color:$info;">— 2025-09-16</mark>
+## 2.0.2 <mark style="color:$info;">— 2025-09-16</mark>
 
 ### **Fixed**
 
