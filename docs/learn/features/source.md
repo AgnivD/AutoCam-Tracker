@@ -111,7 +111,8 @@ Press **Esc** or **Left/Right Mouse Click** to finish.
 * _"Recording is laggy"_ - Try using minimal viewport shading, simplify the scene, and ensure complex objects remain stationary while recording.
 * _"Source panel shows a camera name instead of the Record button"_ - That's expected: you have an AutoCam object selected, so Source is showing where that rig's motion came from. Deselect it (or pick a plain camera) to start a new recording.
 * _"Source panel disappeared"_ - You have a **baked** camera selected. AutoCam hides its controls for baked cameras so a finished shot reads clean.
-* _"Source removed"_ - The original camera this rig was built from has been deleted or renamed.
+* _"Source removed"_ - The camera this rig was built from is no longer in the file. **The rig is unaffected** (its camera is an independent copy, so the shot still plays and bakes normally).\
+  This is rarer than it looks. AutoCam keeps a reference to the source camera, so deleting it with **X**, running **File ▸ Clean Up ▸ Purge**, appending the rig into another file, or saving and reopening all leave it in place. Only a forced datablock delete (Outliner ▸ **Blender File** view ▸ right-click ▸ **Delete**) actually removes it.
 
 {% hint style="info" %}
 Learn more about [**Panel States**](ui-overview.md#panel-states) to understand how it changes based on the context. Instructional hint text throughout AutoCam can be hidden via **Preferences** → **Add-ons** → **AutoCam** → **Show Hints**.

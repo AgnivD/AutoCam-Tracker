@@ -10,10 +10,10 @@ Most quick fixes live on the [**feature pages**](../learn/features/) under "**Co
 
 * **Blender version:** **4.2+**
 * **Updated correctly:** Removed previous install → **Restarted Blender** (important). [**More info**](../welcome/installation.md).
-* **Nothing moves:** Select the rig and make sure **Speed** ≠ **0**; press **Play**. [**More info**](../learn/features/rig.md#common-issues-and-quick-fixes).
-* **Timing mismatch:** If you used **Dynamic**, **Bake** before render/export. [**More info**](../learn/features/output.md#common-issues-and-quick-fixes).
+* **Nothing moves:** Select the rig and make sure **Progress has at least two keyframes**; press **Play**. [**More info**](../learn/features/rig.md#common-issues-and-quick-fixes).
 * **Controls vanished:** Read [**UI Overview**](../learn/features/ui-overview.md) to understand contextual panel states.
-* **Record didn’t write keys:** Make the camera **Active** (header → **Make Active**), then record again.
+* **Recording didn’t write keys:** Make the camera **Active** (header → **Make Active**), then record again.
+* **Blender 5x crash:** Update to AutoCam 2.1.
 
 ***
 
@@ -52,7 +52,7 @@ Most quick fixes live on the [**feature pages**](../learn/features/) under "**Co
 ## Final Render/Export
 
 * Always export the **baked** camera (not the rig camera).
-* When using a render farm or a different PC without AutoCam installed, use [**Simple Rig Mode**](../learn/features/rig.md#rig-mode) or [**Bake the rig**](../learn/features/output.md).
+* When using a render farm or a different PC without AutoCam installed, [**Bake the rig**](../learn/features/output.md).
 * Use **DoF** = **Keyframes** if you want focus pulls outside Blender.
 
 ***

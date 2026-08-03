@@ -33,7 +33,7 @@ This section mirrors the AutoCam panels. Pick the area you’re working in and d
 ### Next steps
 
 * **Get acquainted with the UI** → [**UI Overview**](ui-overview.md)
-* **Learn each feature in depth** → [**Record**](source.md) **-** [**Path**](path.md) **-** [**Rig**](rig.md) **-** [**Bake**](output.md)
+* **Learn each feature in depth** → [**Source**](source.md) **-** [**Path**](path.md) **-** [**Rig**](rig.md) **-** [**Output**](output.md)
 * **Having issues?** Start with [**Troubleshooting**](../../help/troubleshooting.md), check the [**FAQ**](../../help/faq.md), and contact [**Support**](../../help/support.md) if necessary.
 
 &#x20;

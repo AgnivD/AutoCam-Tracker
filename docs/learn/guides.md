@@ -31,14 +31,23 @@ The introductory video for AutoCam's first release.
 {% embed url="https://youtu.be/se_65uZgON4" %}
 
 * Explains the fundamental concepts of **Record**, **Path**, and **Rig**.
-* **Applies to 2.0?**\
-  Yes, the core workflow remains unchanged. Consider the Rig Mode as **Simple** and Tracking as **Manual Aim**. For more details, refer to the [**Changelog**](../updates/changelog.md).
+* **Applies to 2.1?**\
+  The core Record → Path → Rig workflow is unchanged.\
+  Ignore the Rig Mode switch and the Speed slider. In 2.1, timing is keyframed on the Progress slider instead. Treat Tracking as **Manual Aim**.\
+  _&#x46;or more details, refer to the_ [_**Changelog**_](../updates/changelog.md)_._
 
 &#x20;&#x20;
 
 ### AutoCam 2.0 Release Walkthrough
 
 The updated introductory video for AutoCam’s 2.0 release.
+
+{% hint style="warning" %}
+**Recorded on AutoCam 2.0.**\
+The workflow still holds, but the interface has moved on: The panels are now Source / Path / Rig / Output, the Rig Mode switch and Speed sliders are gone, and timing is keyframed on Progress.\
+\
+See the [Changelog](../updates/changelog.md) for the full list.
+{% endhint %}
 
 {% embed url="https://youtu.be/EA91cJ3nLRo" %}
 

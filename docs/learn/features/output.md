@@ -2,7 +2,7 @@
 icon: file-export
 ---
 
-# Bake
+# Output
 
 Baking transforms your AutoCam rig into standard keyframes on a Blender camera. This process makes the animation **independent of AutoCam**, ensuring consistent playback across different computers, render farms, or other digital content creation (DCC) tools.
 
@@ -76,10 +76,22 @@ Baking through AutoCam is **non-destructive** because the original rig collectio
 
 ## When to bake <mark style="color:$info;">(quick checklist)</mark>
 
-* You used **Dynamic** Rig Mode and want frame-perfect renders/exports.
-* You’re sending to a **render farm** or sharing the file with someone **without AutoCam**.
-* You’re **exporting to another DCC** (FBX/Alembic/etc).
+* You're sending to a **render farm** or sharing the file with someone **without AutoCam**.
+* You're **exporting to another DCC** (FBX/Alembic/etc).
 * You want a **locked, lightweight** camera you can tweak with vanilla keyframes.
+* You want the shot immune to any later edit of the rig or its path.
+
+***
+
+## Re-Bake
+
+<div align="left"><figure><img src="../../.gitbook/assets/blender_kNtDycX1sU.png" alt="" width="351"><figcaption></figcaption></figure></div>
+
+Once a rig has been baked, the **Bake** button becomes **Re-Bake**.
+
+It runs the bake again with your current settings and supersedes the previous baked camera.
+
+Use it when you've changed the Progress timing, adjusted Tracking, or just want a different Step or Depth of Field setting on the output.
 
 ***
 
@@ -88,6 +100,7 @@ Baking through AutoCam is **non-destructive** because the original rig collectio
 * _"DoF missing or wrong on the baked camera"_ - You chose **Use Focus Object** or **Off**. Re-bake with **Depth of Field** → **Keyframes** (export-safe).
 * _"Controls disappeared"_ - You’re looking at the **baked** camera. Select the **original rig** to show controls.
 * _"Export doesn't match preview"_ - Always export the **baked** camera, not the camera inside the rig collection.
+* _"I deleted the rig and the baked camera went with it"_ - That's **Clear This Rig** working as intended: it takes the bake down first, then the rig. Bake again from a rebuilt rig, or keep the baked camera by moving it out of its collection first.
 
 {% hint style="success" %}
 Learn more about [**Panel States**](ui-overview.md#panel-states) to understand how it changes based on the context.

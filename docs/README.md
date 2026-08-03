@@ -34,14 +34,14 @@ Record natural movements, generate clean, editable paths, and drive robust rigs,
 
 <figure><img src=".gitbook/assets/AutoCamHero.gif" alt=""><figcaption></figcaption></figure>
 
-AutoCam lets you move your camera like a video game flythrough, then transforms that motion into an editable path and a flexible rig. You can pick different spline types for the path, switch rig modes, keyframe speed (forward, pause, reverse), and refine your aim with simple tracking controls. When you’re ready, bake everything to plain keyframes for easy tweaking, final renders, or export.
+AutoCam lets you move your camera like a video game flythrough, then transforms that motion into an editable path and a flexible rig. You can pick different spline types for the path, time the move by keyframing Progress (forward, hold, or reverse), and refine your aim with simple tracking controls. When you're ready, bake everything to plain keyframes for easy tweaking, final renders, or export.
 
 ***
 
 ## What’s in this documentation
 
 * [**Installation**](welcome/installation.md) — How to add AutoCam to Blender
-* [**Quick Start**](welcome/quick-start.md) — The 60-second workflow from record → rig → bake.
+* [**Quick Start**](welcome/quick-start.md) — The 60-second workflow: Source → Path → Rig → Output.
 * [**Features**](learn/features/) — Dedicated pages for each AutoCam feature with usage instructions.
 * [**Guides**](learn/guides.md) — Common workflows, tips, examples, video tutorials, and more.
 * [**Help**](https://app.gitbook.com/s/3q2ypBtoL6AgTvJ75ezM/help) — [Troubleshooting](help/troubleshooting.md), [FAQ](help/faq.md), and how to contact [Support](help/support.md).

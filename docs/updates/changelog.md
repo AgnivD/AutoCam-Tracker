@@ -10,7 +10,7 @@ This project uses **semantic versioning** - **MAJOR.MINOR.PATCH** <mark style="c
 **Note:**
 
 * This documentation contains information on **v2.0.0** onwards.
-* For the recommended 2.0 workflow, see [**Record**](../learn/features/source.md) → [**Path**](../learn/features/path.md) → [**Rig**](../learn/features/rig.md) → [**Bake**](../learn/features/output.md).
+* For the recommended 2.1 workflow, see [**Source**](../learn/features/source.md) → [**Path**](../learn/features/path.md) → [**Rig**](../learn/features/rig.md) → [**Output**](../learn/features/output.md).
 {% endhint %}
 
 ***
@@ -25,7 +25,7 @@ This project uses **semantic versioning** - **MAJOR.MINOR.PATCH** <mark style="c
   switch and both Speed sliders are gone, along with their preferences.
 * **Rigs saved in 2.0.x are migrated automatically on file open.** Dynamic rigs  \
   become an even-paced traversal of their original frame range; performed  \
-  pacing is not preserved (see "Upgrading from 2.0.x" above).
+  pacing is not preserved.
 * **The sidebar is now organised by stage - Source, Path, Rig, Output.** The  \
   "Record" panel is now "Source" and "Bake" is now "Output"; the buttons  \
   and the workflow are unchanged.

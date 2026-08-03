@@ -15,7 +15,7 @@ This page is a fast overview to get you moving. Please read [**Features**](../le
 ### Step 1: Record a flythrough
 
 1. In the 3D View, press **N** → open the **AutoCam** tab.
-2. Click **Start Recording**.
+2. Click **Record Flythrough**.
 3. Fly like a game: **W/A/S/D** (move), **Q/E** (down/up), **Mouse** (look).
 4. Press **Esc** or **Left/Right Mouse Click** to stop.
 
@@ -40,7 +40,7 @@ Learn more about [**Path Extraction**](../learn/features/path.md).
 ### Step 3: Generate the Camera Rig
 
 1. Select the **Curve** (AutoCamPath) → Click **Generate Rig**, then press **Play** on the Timeline.
-2. Keyframe **Speed** to dynamically adjust camera speed and control timing.
+2. Keyframe **Progress** (0 → 1) on the Rig panel to time the move.
 
 {% hint style="success" %}
 Learn more about [**Rig Generation**](../learn/features/rig.md).
@@ -48,16 +48,18 @@ Learn more about [**Rig Generation**](../learn/features/rig.md).
 
 ***
 
-### Step 4: Rig Mode & Tracking <mark style="color:$info;">(Optional for Quick Start)</mark>
+### Step 4: Timing & Tracking <mark style="color:$info;">(Optional for Quick Start)</mark>
 
-**Rig Mode switch:**
+#### **Timing (the Progress slider):**
 
-* **Simple:** Uses native Blender object constraints.\
-  <mark style="color:$info;">(Best for static camera speed)</mark>
-* **Dynamic:** Uses AutoCam's custom constraints.\
-  <mark style="color:$info;">(Best for dynamic speed changes)</mark>
+**Progress** runs the camera from the start of the path (**0**) to the end (**1**). Keyframe it to time the shot:
 
-**Tracking settings:**
+* Frame **1** → Progress **0** → keyframe
+* Frame **120** → Progress **1** → keyframe
+
+Hold the same value across two keys to **pause**. Run it backwards to **reverse**.
+
+#### **Tracking settings:**
 
 * **Manual Aim:** Camera tracks the **LookAt** object.\
   <mark style="color:$info;">(Best for single, static subjects, or full control)</mark>
@@ -65,16 +67,16 @@ Learn more about [**Rig Generation**](../learn/features/rig.md).
   <mark style="color:$info;">(Best for quick setups with less manual work)</mark>
 
 {% hint style="success" %}
-**Tip:** In **Simple** rig mode, you can make the camera animation end at an exact frame by selecting the "**\_Dolly**" object and adjusting the end keyframe to your desired frame.
-
-Clicking **Sync Speed to Keys** will then update the Speed value to match that frame.
+**Tip:** To make the camera finish on an exact frame, drag the last **Progress** keyframe to that frame. That's the whole trick, nothing to sync or recalculate.
 {% endhint %}
 
 ***
 
 ### Step 5: Bake to Keyframes <mark style="color:$info;">(Optional for Quick Start)</mark>
 
-Click **Bake** to convert AutoCam motion to **plain keyframes**. Perfect for exporting to other DCCs or rendering on a PC without AutoCam installed.
+Open the **Output** panel and click **Bake** to convert AutoCam motion to **plain keyframes**. Perfect for exporting to other DCCs or rendering on a PC without AutoCam installed.
+
+Changed your mind? The button becomes **Re-Bake** once a bake exists. Run it again with different settings, no need to rebuild the rig.
 
 {% hint style="success" %}
 Learn more about [**Baking**](../learn/features/output.md).

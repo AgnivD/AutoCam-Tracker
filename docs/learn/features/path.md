@@ -19,7 +19,7 @@ Convert your recorded camera movements into an **editable curve**, serving as th
 {% hint style="info" %}
 **Prerequisites:**
 
-* A camera **with location keyframes** exists (see [**Record**](source.md) if not).
+* A camera **with location keyframes** exists (see [**Source**](source.md) if not).
 * Ensure the camera is **selected**, regardless of whether it is active or inactive.
 {% endhint %}
 
