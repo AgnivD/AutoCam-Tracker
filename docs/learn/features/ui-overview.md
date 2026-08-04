@@ -330,10 +330,10 @@ Preferences are grouped into seven boxes.
 
 #### Interface
 
-| Setting                                                                                                         | What it does                                                                                                                      |
-| --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| <ul class="contains-task-list"><li><input type="checkbox" checked><strong>Show Hints</strong></li></ul>         | Hides the instructional text in the panels once you know the workflow. Warnings, errors, and computed values always stay visible. |
-| <ul class="contains-task-list"><li><input type="checkbox" checked><strong>Show 'Danger Zone'</strong></li></ul> | Shows or hides the destructive-tools panel.                                                                                       |
+| Setting                | What it does                                                                                                                      |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| **Show Hints**         | Hides the instructional text in the panels once you know the workflow. Warnings, errors, and computed values always stay visible. |
+| **Show 'Danger Zone'** | Shows or hides the destructive-tools panel.                                                                                       |
 
 #### Path Defaults
 

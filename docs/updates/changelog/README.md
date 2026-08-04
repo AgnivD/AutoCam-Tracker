@@ -13,7 +13,7 @@ AutoCam ships as two editions on **two separate version lines**. Pick the one yo
 | Edition          | Version   | Released   | Notes                               |
 | ---------------- | --------- | ---------- | ----------------------------------- |
 | **AutoCam Free** | **2.1.1** | 2026-08-03 | [Full changelog →](autocam-free.md) |
-| **AutoCam Pro**  | **1.0.0** | 2026-07-31 | [Full changelog →](autocam-pro.md)  |
+| **AutoCam Pro**  | **1.0.0** | 2026-08-04 | [Full changelog →](autocam-pro.md)  |
 
 ***
 

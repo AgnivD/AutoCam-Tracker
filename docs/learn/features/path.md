@@ -106,10 +106,10 @@ Close any path into a seamless cycle - turntables, idle loops, endless corridor 
 
 <figure><img src="../../.gitbook/assets/blender_nzBC5SxeBr.png" alt=""><figcaption></figcaption></figure>
 
-| Control                                                                                          | What it does                                                                                                    |
-| ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
-| **Seam Shape**                                                                                   | −1 to +1. **−1** curls inward (concave), **0** bridges straight, **+1** follows the path's momentum (seamless). |
-| <ul class="contains-task-list"><li><input type="checkbox"><strong>Repeat Laps</strong></li></ul> | Appears once a rig exists. The camera keeps lapping past the last Progress key, indefinitely.                   |
+| Control         | What it does                                                                                                    |
+| --------------- | --------------------------------------------------------------------------------------------------------------- |
+| **Seam Shape**  | −1 to +1. **−1** curls inward (concave), **0** bridges straight, **+1** follows the path's momentum (seamless). |
+| **Repeat Laps** | Appears once a rig exists. The camera keeps lapping past the last Progress key, indefinitely.                   |
 
 The seam is a **derived bridge**, never baked into your curve. Toggle Loop off and the open path comes back exactly as it was. It works with all three spline types.
 

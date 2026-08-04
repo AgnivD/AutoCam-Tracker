@@ -20,7 +20,7 @@ Explore our video walkthroughs and tutorials. Stay tuned for more updates!
 
 All video guides in one place. New lessons added regularly.
 
-{% embed url="https://www.youtube.com/watch?list=PLPANgs78y7xCBYIo9H9xLe6qIzg4YiwHL&pp=0gcJCfMCOCosWNinsAgC&v=s1mwbVgH4wY" %}
+{% embed url="https://youtube.com/playlist?list=PLPANgs78y7xCBYIo9H9xLe6qIzg4YiwHL" %}
 
 ####
 

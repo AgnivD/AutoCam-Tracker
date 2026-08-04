@@ -318,11 +318,11 @@ Click **+** to add a row and pick any curve object in the scene.
 
 <figure><img src="../../.gitbook/assets/blender_hlbGYe59rk.png" alt=""><figcaption></figcaption></figure>
 
-| Per-segment control                                                                                      | What it does                                                      |
-| -------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| **Start** / **End**                                                                                      | The frame window this segment occupies.                           |
-| **Color**                                                                                                | Its swatch in the viewport overlay.                               |
-| <ul class="contains-task-list"><li><input type="checkbox" checked><strong>Repeat Laps</strong></li></ul> | How many times to lap this curve. Needs a cyclic or looped curve. |
+| Per-segment control | What it does                                                                                                                               |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Start** / **End** | The frame window this segment occupies.                                                                                                    |
+| **Color**           | Its swatch in the viewport overlay.                                                                                                        |
+| **Repeat Laps**     | Keeps lapping this segment's curve after its window; until the next handoff, or forever if it's the last segment. Requires a cyclic curve. |
 
 #### Rules the panel enforces
 
