@@ -4,6 +4,7 @@
 
 * [Overview](README.md)
 * [Installation](welcome/installation.md)
+* [Editions](welcome/editions.md)
 * [Quick Start](welcome/quick-start.md)
 
 ## Learn
@@ -24,5 +25,7 @@
 
 ## Updates
 
-* [Changelog](updates/changelog.md)
+* [Changelog](updates/changelog/README.md)
+  * [AutoCam Free](updates/changelog/autocam-free.md)
+  * [AutoCam Pro](updates/changelog/autocam-pro.md)
 * [Roadmap](updates/roadmap.md)

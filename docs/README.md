@@ -22,15 +22,15 @@ layout:
 
 # Overview
 
-## AutoCam - Intuitive Camera Tools for Blender
+### AutoCam - Intuitive Camera Tools for Blender
 
 Built for artists, AutoCam simplifies cinematic camera animation in Blender.
 
-Record natural movements, generate clean, editable paths, and drive robust rigs,&#x20;without interrupting your creative flow.
+Record natural movements, generate clean, editable paths, and drive robust rigs, without interrupting your creative flow.
 
 ***
 
-## What is AutoCam?
+### What is AutoCam?
 
 <figure><img src=".gitbook/assets/AutoCamHero.gif" alt=""><figcaption></figcaption></figure>
 
@@ -38,45 +38,68 @@ AutoCam lets you move your camera like a video game flythrough, then transforms 
 
 ***
 
-## What’s in this documentation
+### Two editions
+
+AutoCam ships as two separate add-ons that share the same core and the same sidebar.
+
+* **AutoCam Free 2.1.1** - The full Record → Path → Rig → Output workflow. Free forever, GPL, on the Blender Extensions Platform.
+* **AutoCam Pro 1.0.0** <mark style="color:$warning;">**PRO**</mark> - Everything in Free, plus Camera Morph, Realtime Path Steering, Loop, Segments, three extra tracking modes, Inherit Original Speed, the Pipeline hub, batch baking, and Alembic/USD/FBX export.
+
+Throughout these docs, anything marked <mark style="color:$warning;">**PRO**</mark> is an AutoCam Pro feature. In a Free install those controls are **not present at all** - not greyed out, not teasing an upgrade. See **Editions** for the full comparison.
+
+{% hint style="warning" %}
+Free and Pro **cannot be installed at the same time**. They provide the same panels and operators. Remove one before installing the other - see **Installation**.
+{% endhint %}
+
+***
+
+### What's in this documentation
 
 * [**Installation**](welcome/installation.md) — How to add AutoCam to Blender
+* [**Editions**](welcome/editions.md) — What's in Free, what's in Pro, and how to tell which you're running
 * [**Quick Start**](welcome/quick-start.md) — The 60-second workflow: Source → Path → Rig → Output.
 * [**Features**](learn/features/) — Dedicated pages for each AutoCam feature with usage instructions.
 * [**Guides**](learn/guides.md) — Common workflows, tips, examples, video tutorials, and more.
 * [**Help**](https://app.gitbook.com/s/3q2ypBtoL6AgTvJ75ezM/help) — [Troubleshooting](help/troubleshooting.md), [FAQ](help/faq.md), and how to contact [Support](help/support.md).
-* [**Updates**](https://app.gitbook.com/s/3q2ypBtoL6AgTvJ75ezM/updates) — Release Notes ([Changelog](updates/changelog.md)) and the Public [Roadmap](updates/roadmap.md).
+* [**Updates**](https://app.gitbook.com/s/3q2ypBtoL6AgTvJ75ezM/updates) — Release Notes ([Changelog](updates/changelog/)) and the Public [Roadmap](updates/roadmap.md).
 
 ***
 
-## How to navigate (pick your goal)
+### How to navigate (pick your goal)
 
 1. **New to AutoCam?** Follow the [**Quick Start**](welcome/quick-start.md).
-2. **Want deeper control?** Read [**Features** ](learn/features/)and [**Guides**](learn/guides.md)**.**
-3. **Having issues?** Start with [**Troubleshooting**](help/troubleshooting.md), check the [**FAQ**](help/faq.md), and contact [**Support**](help/support.md) if necessary.
-4. **Have feedback?** Head to the [**Support**](help/support.md) page; check the [**Roadmap**](updates/roadmap.md) to see what’s planned.
+2. **Deciding between Free and Pro?** Read [**Editions**](welcome/editions.md).
+3. **Want deeper control?** Read [**Features**](learn/features/) and [**Guides**](learn/guides.md)**.**
+4. **Having issues?** Start with [**Troubleshooting**](help/troubleshooting.md), check the [**FAQ**](help/faq.md), and contact [**Support**](help/support.md) if necessary.
+5. **Have feedback?** Head to the [**Support**](help/support.md) page; check the [**Roadmap**](updates/roadmap.md) to see what's planned.
 
 ***
 
-## Quick links
+### Requirements
 
-### **Core:**
+* **Blender 4.2 or newer**, on Windows, macOS, and Linux.
+* Developed and tested on **Blender 5.2 LTS**.
 
-* <i class="fa-globe">:globe:</i>  [**RenderRides Website**](https://www.renderrides.com)
-* <i class="fa-github">:github:</i>  [**AutoCam-Tracker Github**](https://github.com/AgnivD/AutoCam-Tracker)
-* <i class="fa-puzzle-piece">:puzzle-piece:</i>  [**Blender Extensions Platform**](https://extensions.blender.org/author/40749/)
+***
 
-### **Social:**
+### Quick links
 
-* <i class="fa-youtube">:youtube:</i>  [**YouTube**](https://www.youtube.com/@RenderRides)
-* <i class="fa-discord">:discord:</i>  [**Discord**](https://discord.gg/XHAAbvm)
-* <i class="fa-instagram">:instagram:</i>  [**Instagram**](https://www.instagram.com/renderrides)
-* <i class="fa-x-twitter">:x-twitter:</i>  [**Twitter/X**](https://twitter.com/RenderRides)
+#### **Core:**
 
-### **Stores:**
+* <i class="fa-globe">:globe:</i> [**RenderRides Website**](https://www.renderrides.com)
+* <i class="fa-github">:github:</i> [**AutoCam-Tracker Github**](https://github.com/AgnivD/AutoCam-Tracker)
+* <i class="fa-puzzle-piece">:puzzle-piece:</i> [**Blender Extensions Platform**](https://extensions.blender.org/author/40749/)
 
-* <i class="fa-store">:store:</i>  [**Gumroad**](https://gumroad.com/renderrides)
-* <i class="fa-bee">:bee:</i>  [**Superhive**](https://blendermarket.com/creators/renderrides)
-* <i class="fa-patreon">:patreon:</i>  [**Patreon**](https://patreon.com/renderrides)
+#### **Social:**
 
-&#x20;
+* <i class="fa-youtube">:youtube:</i> [**YouTube**](https://www.youtube.com/@RenderRides)
+* <i class="fa-discord">:discord:</i> [**Discord**](https://discord.gg/XHAAbvm)
+* <i class="fa-instagram">:instagram:</i> [**Instagram**](https://www.instagram.com/renderrides)
+* <i class="fa-x-twitter">:x-twitter:</i> [**Twitter/X**](https://twitter.com/RenderRides)
+
+#### **Stores:**
+
+* <i class="fa-store">:store:</i> [**Gumroad**](https://gumroad.com/renderrides)
+* <i class="fa-bee">:bee:</i> [**Superhive**](https://blendermarket.com/creators/renderrides)
+* <i class="fa-patreon">:patreon:</i> [**Patreon**](https://patreon.com/renderrides)
+

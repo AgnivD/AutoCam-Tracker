@@ -4,66 +4,76 @@ icon: handshake
 
 # Support
 
-## **Start here:**
+### **Start here:**
 
-* Check **Common Issues** on the [**feature page**](../learn/features/) you’re using.
-* Skim **Troubleshooting**.
+* Check **Common Issues** on the [**feature page**](../learn/features/) you're using.
+* Skim [**Troubleshooting**](troubleshooting.md).
 * Still stuck? **Use a channel below**.
 
 ***
 
-## How to contact us
+### How to contact us
 
 * [**Discord Server**](https://discord.gg/XHAAbvm) - **Quick questions**, workflow tips, and community help.
-* [**Direct Email**](mailto:support@renderrides.com) - **Private support** for private scenes, NDA work, or anything you can’t post publicly.
+* [**Direct Email**](mailto:support@renderrides.com) - **Private support** for private scenes, NDA work, or anything you can't post publicly.
 * [**GitHub Tracker**](https://github.com/AgnivD/AutoCam-Tracker/issues/new/choose) **-** **Public issue tracking** for bugs, feature requests, and roadmap discussions.
+
+{% hint style="info" %}
+<mark style="color:$warning;">**PRO**</mark> **AutoCam Pro includes priority support.** Email [support@renderrides.com](mailto:support@renderrides.com) and mention your store and order reference for a faster response from the RenderRides team.
+{% endhint %}
 
 ***
 
-## What to include
+### What to include
 
-### **System & versions:**
+#### **System & versions:**
 
-* **AutoCam version.**
+* **AutoCam edition and version** - copy it from **Preferences** → **Add-ons** → **AutoCam** → **About**. It reads _AutoCam Free 2.1.1_ or _AutoCam Pro 1.0.0_.
+* **Blender version.**
 * **Install method:** **Extension** (4.2+) or **Add-on** (zip).
 * **System Info file:** Blender → **Help** → **Save System Info** (attach the text file).
 * **Console log/crash log:**
   * **Windows:** In Blender, **Window** → **Toggle System Console**, copy errors.
   * **macOS/Linux:** Launch Blender from Terminal and copy **stdout/stderr**.
-  * **Crash logs:** Blender’s **/temp/** or `~/Library/Logs/Blender/` (macOS).
+  * **Crash logs:** Blender's **/temp/** or `~/Library/Logs/Blender/` (macOS).
 
-### **The problem:**
+#### **The problem:**
 
 * Short title + 1-2 sentences of what you expected vs what happened.
 * Exact steps to reproduce (numbered, minimal).
+* Which **stage** the rig was on (Source / Path / Rig / Output) and the **Tracking mode** in use.
 * Quick screen capture or screenshots showing the issue.
 * Any console error/traceback (**Window** → **Toggle System Console** on Windows).
 
-### **Scene/sample:**
+#### **Scene/sample:**
 
 * A minimal **.blend** that reproduces the issue (**File** → **External Data** → **Pack Resources**).
 * **For performance:** FPS, viewport mode, scene polycount, or texture sizes.
 * **For export:** Bake settings used and exporter/target DCC.
 
+{% hint style="success" %}
+**Tip:** If the problem survives a **Bake**, say so - it tells us immediately whether the issue is in the rig or in the output.
+{% endhint %}
+
 ***
 
-## Status & updates
+### Status & updates
 
-* Roadmap and release notes live on [**Roadmap**](../updates/roadmap.md) and [**Changelog**](../updates/changelog.md).
+* Roadmap and release notes live on [**Roadmap**](../updates/roadmap.md) and [**Changelog**](../updates/changelog/).
 * For open issues, watch the item on the [**GitHub Tracker**](https://github.com/AgnivD/AutoCam-Tracker) to get updates.
 
 ***
 
-## Privacy
+### Privacy
 
-Only share files you’re allowed to share. If needed, [**email directly**](mailto:support@renderrides.com) instead of public channels.
+Only share files you're allowed to share. If needed, [**email directly**](mailto:support@renderrides.com) instead of public channels.
 
-We’ll only use your files to reproduce the issue and delete them upon request.
+We'll only use your files to reproduce the issue and delete them upon request.
 
 ***
 
-## **Still stuck?**
+### **Still stuck?**
 
-[Send us a message](mailto:support@renderrides.com) with the template above. We’ll take it from there.
+[Send us a message](mailto:support@renderrides.com) with the template above. We'll take it from there.
 
 &#x20;&#x20;
